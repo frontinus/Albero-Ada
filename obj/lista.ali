@@ -1,0 +1,22 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U lista%s		lista.ads		78519308 NE OO PK
+
+D lista.ads		20230609101816 78519308 lista%s
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s s [TcoordBIP lista 2 4 none]
+G c Z s s [Tfloat_matrixBIP lista 3 4 none]
+X 1 lista.ads
+1K9*Lista 6l5 6e10
+2A9*Coord(float)<integer> 3r42
+3A9*Float_Matrix(2A9)<integer>
+

@@ -1,0 +1,128 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U utility%b		utility.adb		63267fe1 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W lista%s		lista.ads		lista.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_7%s	s-conca7.adb		s-conca7.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U utility%s		utility.ads		3cbf393c EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W lista%s		lista.ads		lista.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D lista.ads		20230609101816 78519308 lista%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-conca7.ads		20210520051132 fcc75b1f system.concat_7%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imager.ads		20210520051134 500b11a9 system.image_r%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imgflt.ads		20210520051134 78689de8 system.img_flt%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-powflt.ads		20210520051134 46f7a1b9 system.powten_flt%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D utility.ads		20230614061442 44eeaa34 utility%s
+D utility.adb		20230614061442 945973b3 utility%b
+G a e
+G c Z s b [to_radiant utility 5 13 none]
+G c Z s b [make_the_file utility 6 13 none]
+G c Z s b [to_degree utility 7 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 43|1r6 2r6 3r6 6r5 7r5 15r23 24r18 26r7 26r53 27r7 28r7 29r7
+. 32r10 33r10 34r10 35r10 36r10 37r10 39r7 40r7 41r7 42r7 45r10 47r10 50r7
+. 51r7 52r7 53r7 54r7 56r7 63r24
+X 3 a-flteio.ads
+20K13*Float_Text_IO[12|46] 43|3w10 7r9 45r14 47r14
+X 5 a-numeri.ads
+16K13*Numerics 35e17 43|1w10 15r27 63r28
+21N4*Pi 43|15r36 63r37
+X 11 a-textio.ads
+58K13*Text_IO 725e16 43|2w10 6r9 24r22 26r11 26r57 27r11 28r11 29r11 32r14
+. 33r14 34r14 35r14 36r14 37r14 39r11 40r11 41r11 42r11 50r11 51r11 52r11
+. 53r11 54r11 56r11
+65P9*File_Type 43|24r30
+67n32*Out_File{67E9} 43|26r65
+87I12*Field{integer}
+97U14*Create 43|26s19
+98p7 File{65P9} 43|26r27
+99e7 Mode{67E9} 43|26r45
+100a7 Name{string} 43|26r75
+127U14*Close 43|56s19
+457U14*Put 43|43s7 46s10 48s10
+496U14*Put_Line 43|27s19 28s19 29s19 32s22 33s22 34s22 35s22 36s22 37s22
+. 39s19 40s19 41s19 42s19 50s19 51s19 52s19 53s19 54s19
+X 12 a-tiflio.ads
+69U14*Put 43|45s28[3|20] 47s28[3|20]
+72i7 Fore{11|87I12} 43|45r63[3|20] 47r63[3|20]
+73i7 Aft{11|87I12} 43|45r56[3|20] 47r56[3|20]
+X 16 lista.ads
+1K9*Lista 6e10 42|1w6 2r5 6r35 43|4w6 5r5 20r35
+2A9*Coord(float)<integer>
+3A9*Float_Matrix(2A9)<integer> 42|6r41 43|20r41
+X 42 utility.ads
+3K9*Utility 9l5 9e12 43|8b14 69l5 69t12
+5V13*To_Radiant{float} 5>25 43|10b13 17l8 17t18
+5f25 x{float} 43|10b25 15r10
+6V13*Make_The_File{boolean} 6>27 43|20b13 58l8 58t21
+6a27 Coords{16|3A9} 43|20b27 31r16 35r88 35r121 44r16 45r42 47r42
+7V13*To_Degree{float} 7>23 43|60b13 65l8 65t17
+7f23 x{float} 43|60b23 63r10
+X 43 utility.adb
+12f6 y{float} 15m7 16r14
+21a7 File_Name{string} 26r83
+22a7 str1{string} 27r39
+23a7 str2{string} 28r39
+24p7 KML_File{11|65P9} 26m35 26r35 27r29 28r29 29r29 32r32 33r32 34r32 35r32
+. 36r32 37r32 39r29 40r29 41r29 42r29 43r11 45r32 46r14 47r33 48r14 50r29
+. 51r29 52r29 53r29 54r29 56m26 56r26
+31i11 I{integer} 33r76 35r95 35r128
+44i11 I{integer} 45r49 47r49
+61f7 y{float} 63m7 64r14
+
